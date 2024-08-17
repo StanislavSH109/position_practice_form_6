@@ -48,10 +48,34 @@ body {
     border-radius: 4px;
 }
 
+.custom-input {
+    position: relative;
+}
+
+
 .custom-input__field::placeholder {
     font-size: 12px;
     line-height: 125%;
     color: #b1b7c1;
+}
+
+.custom-input__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%)
+}
+
+.custom-input__icon--user {
+    pointer-events: none;
+}
+
+
+.custom-input__icon--password {
+    padding: 0;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
 }
 
 .form-login__btn {
