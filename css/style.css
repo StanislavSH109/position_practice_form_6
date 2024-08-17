@@ -42,7 +42,7 @@ body {
 
 .custom-input__field {
     width: 100%;
-    padding: 14px 15px 14px 15px;
+    padding: 14px 45px 14px 15px;
 
     border: 1px solid #e7e8eb;
     border-radius: 4px;
@@ -51,7 +51,6 @@ body {
 .custom-input {
     position: relative;
 }
-
 
 .custom-input__field::placeholder {
     font-size: 12px;
